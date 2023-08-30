@@ -8,7 +8,7 @@ imgFile = 'lua.jpg';
 I = imread(imgFile);              % Carrega a imagem baixada previamente
 figure;
 image(I);               % Exibe a imagem da lua
-figure;
+figure;B
 imshow(I, [0,255]); 
 xlabel([ 'Imagem: ' imgFile ]); 
 
